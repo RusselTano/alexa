@@ -31,7 +31,7 @@ def greetMe():
         talk('Bonsoir Martialo Dev!')
 
 # set french voice
-engine.setProperty('voice', voices[3].id)
+engine.setProperty('voice', voices[2].id)
 greetMe()
 engine.say('comment vas tu?')
 # engine.say('Que puis je faire pour toi?')
